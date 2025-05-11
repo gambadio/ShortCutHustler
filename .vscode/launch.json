@@ -1,22 +1,30 @@
 {
+    "version": "0.2.0",
     "configurations": [
-        {
-            "type": "swift",
-            "request": "launch",
-            "args": [],
-            "cwd": "${workspaceFolder:ShortCutHustler}",
-            "name": "Debug ShortCutHustler",
-            "program": "${workspaceFolder:ShortCutHustler}/.build/debug/ShortCutHustler",
-            "preLaunchTask": "swift: Build Debug ShortCutHustler"
-        },
-        {
-            "type": "swift",
-            "request": "launch",
-            "args": [],
-            "cwd": "${workspaceFolder:ShortCutHustler}",
-            "name": "Release ShortCutHustler",
-            "program": "${workspaceFolder:ShortCutHustler}/.build/release/ShortCutHustler",
-            "preLaunchTask": "swift: Build Release ShortCutHustler"
-        }
+      {
+        "name": "Run ShortCutHustler",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceFolder}/.build/debug/ShortCutHustler",
+        "cwd": "${workspaceFolder}"
+      },
+      {
+        "type": "swift",
+        "request": "launch",
+        "args": [],
+        "cwd": "${workspaceFolder:ShortCutHustler}",
+        "name": "Debug ShortCutHustler",
+        "program": "${workspaceFolder:ShortCutHustler}/.build/debug/ShortCutHustler",
+        "preLaunchTask": "swift: Build Debug ShortCutHustler"
+      },
+      {
+        "type": "swift",
+        "request": "launch",
+        "args": [],
+        "cwd": "${workspaceFolder:ShortCutHustler}",
+        "name": "Release ShortCutHustler",
+        "program": "${workspaceFolder:ShortCutHustler}/.build/release/ShortCutHustler",
+        "preLaunchTask": "swift: Build Release ShortCutHustler"
+      }
     ]
-}
+  }

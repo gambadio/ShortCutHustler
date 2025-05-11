@@ -8,8 +8,6 @@ struct ShortCutHustlerApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(registry)
-                .onAppear { registry.start() }
-                .onDisappear { registry.stop() }
         }
         .windowToolbarStyle(.unifiedCompact)
     }

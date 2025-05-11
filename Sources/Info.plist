@@ -3,13 +3,12 @@
  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>CFBundleName</key>
-    <string>ShortCutHustler</string>
-  <key>CFBundleIdentifier</key>
-    <string>dev.ricky.shortcuthustler</string>
-  <key>NSPrincipalClass</key>
-    <string>NSApplication</string>
-  <key>NSInputMonitoringUsageDescription</key>
-    <string>ShortCutHustler needs to observe key presses so it can list global and app-specific shortcuts.</string>
+    <key>CFBundleName</key>            <string>ShortCutHustler</string>
+    <key>CFBundleIdentifier</key>     <string>dev.ricky.shortcuthustler</string>
+    <key>NSPrincipalClass</key>       <string>NSApplication</string>
+    <key>NSHumanReadableCopyright</key><string>© 2025 Ricky K.</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>LSMinimumSystemVersion</key> <string>13.0</string>
+    <!-- no Input‑Monitoring key needed any more -->
 </dict>
 </plist>
