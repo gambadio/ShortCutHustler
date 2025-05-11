@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ShortCutHustler}",
+            "name": "Debug ShortCutHustler",
+            "program": "${workspaceFolder:ShortCutHustler}/.build/debug/ShortCutHustler",
+            "preLaunchTask": "swift: Build Debug ShortCutHustler"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ShortCutHustler}",
+            "name": "Release ShortCutHustler",
+            "program": "${workspaceFolder:ShortCutHustler}/.build/release/ShortCutHustler",
+            "preLaunchTask": "swift: Build Release ShortCutHustler"
+        }
+    ]
+}
